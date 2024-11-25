@@ -1,0 +1,44 @@
+# Node.js
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.env
+
+# Logs
+logs/
+*.log
+logs/*.log
+
+# Dependency directories
+server/node_modules/
+client/node_modules/
+
+# Build directories
+server/dist/
+client/build/
+
+# React
+client/.env
+client/.env.local
+client/.env.development.local
+client/.env.test.local
+client/.env.production.local
+
+# Editor Directories and Files
+.vscode/
+.idea/
+*.swp
+*.swo
+*.swn
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Testing
+coverage/
+*.lcov
+
+# Misc
+*.lock
